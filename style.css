@@ -1,0 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
+a{
+    display: inline-block;
+    width: auto;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+nav, scroll-container{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+nav{
+    width: 600px;
+    padding: 5px;
+    border: 1px solid red;
+}
+scroll-container{
+    width: 800px;
+    height: auto;
+    position: relative;
+}
+scroll-page{
+    border: 1px solid pink;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-size: 2em;
+    margin: 15px;
+}
